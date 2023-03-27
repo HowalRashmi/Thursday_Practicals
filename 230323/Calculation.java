@@ -4,23 +4,16 @@ will call all the methods and show output*/
 
 class Calculations   //creating class
 {
-	int a, b, sum, subtract, multiple;   //data members
 	void getAddition(int x, int y)      //creating method for addition
 	{
-		this.a=x;
-		this.b=y;
 		System.out.println("Addition is: "+(x+y));
 	}
 	void getSubtraction(int x,int y)   //creating method for subtraction
 	{
-		this.a=x;
-		this.b=y;
 		System.out.println("Subtraction is: "+(x-y));
 	}
 	void getMultiplication(int x, int y)  //creating method for multiplication
 	{
-		this.a=x;
-		this.b=y;
 		System.out.println("Multiplication is: "+(x*y));
 	}
 }
