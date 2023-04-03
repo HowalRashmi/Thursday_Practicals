@@ -17,7 +17,7 @@ class Person
 }
 public class Student extends Person
 {
-	char grade='A';
+	String grade='A';
 	public void study()
 	{
 		System.out.println("This is study method of child class Student");
