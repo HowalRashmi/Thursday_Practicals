@@ -1,5 +1,6 @@
 /* Create two thread.one thread is finding average of first 50 numbers and other thread is
 printing square of number store in array arr={10,15,20,25,30}*/
+
 package practicals130423;
 
 class Thread1 extends Thread           //creating threads
@@ -30,9 +31,9 @@ class Thread2 extends Thread       //creating second thread
 public class Threads {
 
 	public static void main(String[] args) {        //main method
-		Thread1 t1 = new Thread1();     //creating threads
+		Thread1 t1 = new Thread1();     //creating objects for new threads
 		Thread2 t2 = new Thread2();
-		t1.start();       //starting threads
+		t1.start();       //starts execution of threads
 		t2.start();
 	}
 
