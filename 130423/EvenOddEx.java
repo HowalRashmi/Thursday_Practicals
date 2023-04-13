@@ -10,10 +10,10 @@ class EvenOdd extends Thread           //creating threads
 	{
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter no to check if it is even or odd: ");
-		int i= sc.nextInt();                        //getting input from user
-		if(i%2==0)                                  //checking for even or odd
+		int i= sc.nextInt();                        //getting integer input from user
+		if(i%2==0)                                  //checking if the number is even or odd
 		{
-			System.out.println("Given number is even");
+			System.out.println("Given number is even");      //printing output
 		}
 		else
 		{
@@ -25,7 +25,7 @@ public class EvenOddEx {
 
 	public static void main(String[] args) {             //main method
 		EvenOdd eo=new EvenOdd();                  //creating new thread
-		eo.start();                                //start thread
+		eo.start();                                //starting thread
 	}
 
 }
