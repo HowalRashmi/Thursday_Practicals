@@ -15,7 +15,7 @@ public class SmallLargeEx {
 			}
 			else if(small>arr[i])      //if condition to compare and assign values
 			{
-				small=arr[i];      ////if value of small is more than the next element of array then the value of small will be changed
+				small=arr[i];      //if value of small is more than the next element of array then the value of small will be changed
 			}
 		}
 		System.out.println("Largest number is: "+large);
