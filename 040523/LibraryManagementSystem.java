@@ -176,12 +176,12 @@ public static void main(String[] args) {     //main method
 			LibraryManagementSystem lms=new LibraryManagementSystem();    //creating object
 			lms.createtable();       //calling method to create table
 		}
-		if(i==2)
+		else if(i==2)
 		{
 			LibraryManagementSystem lms=new LibraryManagementSystem();      //creating object
 			lms.insert();      //calling insert method
 		}  
-		if(i==3)
+		else if(i==3)
 		{
 			LibraryManagementSystem lms=new LibraryManagementSystem();   //creating object
 			lms.delete();        //calling delete method
