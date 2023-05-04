@@ -23,7 +23,7 @@ public class LibraryManagementSystem {
 	{
 		String url="jdbc:mysql://localhost:3306/lms";       //making connection with the database
 		String username="root";
-		String password="mySqlrashmi@18";
+		String password="root";
 		try
 		{
 		Connection con=DriverManager.getConnection(url, username, password);		//establishing connection
@@ -42,7 +42,7 @@ public class LibraryManagementSystem {
 	{
 		String url="jdbc:mysql://localhost:3306/lms";       //making connection with the database
 		String username="root";
-		String password="mySqlrashmi@18";
+		String password="root";
 		try
 		{
 		Connection con=DriverManager.getConnection(url, username, password);		//establishing connection
